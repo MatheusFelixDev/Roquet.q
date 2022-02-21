@@ -94,3 +94,15 @@ input, button, .button{
     bottom: -15rem;
     right: 5.6rem
 }
+
+/* Responsive ===================== */
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
